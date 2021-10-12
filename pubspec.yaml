@@ -1,0 +1,44 @@
+name: flutter_graphql_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Internationalization
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+  # Bloc
+  equatable: ^2.0.3
+  flutter_bloc: ^7.3.0
+  # Cupertino Icons
+  cupertino_icons: ^1.0.2
+  # GraphQl
+  graphql: ^5.0.0
+  # Path provider
+  path_provider: ^2.0.4
+  # Shimmer effect (image placeholder)
+  shimmer: ^2.0.0
+  # Cached images
+  cached_network_image: ^3.1.0
+dev_dependencies:
+  # Tests
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  bloc_test: ^8.2.0
+  mocktail: ^0.1.4 # Like Mockito (with null-safety)    
+  # Flutter standardization
+  flutter_lints: ^1.0.3
+  
+flutter:
+  generate: true
+  uses-material-design: true

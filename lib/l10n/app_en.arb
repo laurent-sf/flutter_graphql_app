@@ -1,0 +1,15 @@
+{
+    "@_GENERAL": {},
+    "appName": "Flutter Graphql App",
+    "@appName": {
+      "description": "The name of the app"
+    },
+    "retry": "Retry",
+    "welcome": "Welcome",
+    "checkIn": "Check-in",
+    "dining": "Dining",
+  
+    "@_MAIN": {},
+    "home": "Home",
+    "reservations": "Reservations"
+}
