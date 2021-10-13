@@ -14,7 +14,7 @@ void main() async {
   final appDocDirectory = await getApplicationDocumentsDirectory();
   final store = await HiveStore.open(path: '${appDocDirectory.path}/cache');
 
-  const url = 'http://localhost:4000/';
+  const url = 'http://192.168.1.65:4000/';
 
   final graphQLClient = GraphQLClient(
     cache: GraphQLCache(store: store),
