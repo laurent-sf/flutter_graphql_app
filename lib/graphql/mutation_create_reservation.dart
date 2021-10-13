@@ -3,6 +3,8 @@ const createReservation = r'''
     reservations: createReservation(restaurantId: $restaurantId) {
       _id
       restaurant {
+        _id
+        name
         photo
       }
     }

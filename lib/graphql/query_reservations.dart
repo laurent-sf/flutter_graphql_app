@@ -3,6 +3,8 @@ const queryReservations = r'''
     reservations {
       _id
       restaurant {
+        _id
+        name
         photo
       }
     }
