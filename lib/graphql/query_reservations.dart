@@ -1,14 +1,9 @@
 const queryReservations = r'''
-  query Query {
+  query Reservations {
     reservations {
       _id
       restaurant {
-        _id
-        name
-        description
-        hours
         photo
-        version
       }
     }
   }

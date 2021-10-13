@@ -1,22 +1,21 @@
 import 'package:equatable/equatable.dart';
-import 'package:flutter_graphql_app/model/model.dart';
 
 class Reservation extends Equatable {
   final String id;
-  final Restaurant restaurant;
+  final String restaurantPhoto;
 
   const Reservation({
     required this.id,
-    required this.restaurant,
+    required this.restaurantPhoto,
   });
 
   factory Reservation.fromJson(Map<String, dynamic> json) {
     return Reservation(
       id: json['_id'] ?? '',
-      restaurant: Restaurant.fromJson(json['restaurant']),
+      restaurantPhoto: json['restaurant']['photo'],
     );
   }
 
   @override
-  List<Object?> get props => [id, restaurant];
+  List<Object?> get props => [id, restaurantPhoto];
 }

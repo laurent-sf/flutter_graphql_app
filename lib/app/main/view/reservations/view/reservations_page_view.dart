@@ -83,7 +83,7 @@ class _ReservationsLoadSuccess extends StatelessWidget {
           child: Stack(
             children: [
               CachedNetworkImage(
-                imageUrl: reservation.restaurant.photo,
+                imageUrl: reservation.restaurantPhoto,
                 fit: BoxFit.fill,
               ),
               Align(

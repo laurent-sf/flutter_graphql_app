@@ -1,5 +1,5 @@
 const queryRestaurants = r'''
-  query Query {
+  query Restaurants {
       restaurants {
           _id
           name
